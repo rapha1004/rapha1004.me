@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#landing #title {
+  position: absolute;
+  width: 469px;
+  height: 58px;
+  left: 36.641%;
+  top: 144px;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+}
+#landing .description {
+  position: absolute;
+  left: 27.828%;
+  top: 381px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+#landing #titre-img {
+  position: absolute;
+  width: 219px;
+  height: 265px;
+  left: 60.969%;
+  top: 250px;
+}/*# sourceMappingURL=style.css.map */
