@@ -4,6 +4,9 @@
   padding: 0;
 }
 
+#landing #tkt {
+  position: relative;
+}
 #landing #title {
   position: absolute;
   width: 469px;
@@ -28,8 +31,6 @@
 }
 #landing #titre-img {
   position: absolute;
-  width: 219px;
-  height: 265px;
   left: 60.969%;
   top: 250px;
 }/*# sourceMappingURL=style.css.map */

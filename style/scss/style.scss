@@ -6,6 +6,9 @@
 
 #landing{
 
+    #tkt{
+        position: relative;
+    }
 
     #title{
     position: absolute;
@@ -20,25 +23,23 @@
     line-height: 58px;
     }
 
-
-    .description{
+    .description {
         position: absolute;
-    left: 27.828%;
-    top: 381px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
+        left: 27.828%;
+        top: 381px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+      }
+      
+      
 
-    }
 
     #titre-img{
-        position: absolute;
-width: 219px;
-height: 265px;
-left: 60.969%;
-top: 250px;
-
+    position: absolute;
+    left: 60.969%;
+    top: 250px
     }
 }
