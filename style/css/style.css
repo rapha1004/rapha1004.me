@@ -13,7 +13,7 @@
   color: #000000;
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 3.33vw;
   line-height: 58px;
 }
 #landing .description {
@@ -28,6 +28,7 @@
 }
 #landing #titre-img {
   position: absolute;
+  width: 15vw;
   left: 60.969%;
   top: 250px;
 }
