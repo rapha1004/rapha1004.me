@@ -1,8 +1,6 @@
 const txtAnim = document.querySelector('.description');
-let go = 0;
+let go = 1;
 
-
-//a
 if(go == 1){
 new Typewriter(txtAnim, {
     deleteSpeed: 20
