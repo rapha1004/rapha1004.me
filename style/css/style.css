@@ -17,14 +17,14 @@
   line-height: 58px;
 }
 #landing .description {
-  position: absolute;
-  left: 27.828%;
-  top: 381px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2vw;
-  line-height: 44px;
+          position: absolute;
+    left: 27.828%;
+    top: 381px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
 }
 #landing #titre-img {
   position: absolute;
