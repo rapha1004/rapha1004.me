@@ -1,5 +1,5 @@
 const txtAnim = document.querySelector('.description');
-let go = 1;
+let go = 0;
 
 
 
