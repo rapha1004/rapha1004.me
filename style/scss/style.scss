@@ -5,7 +5,20 @@
 }
 
 #landing{
+    
+    #menubutton{
+    position: absolute;
+    width: 61px;
+    height: 24px;
+    left: 30px;
+    top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
 
+    color: red;
+    }
 
     #title{
     position: absolute;
@@ -37,7 +50,7 @@
     #titre-img{
     position: absolute;
     left: 60.969%;
-    top: 250px
+    top: 250px;
     }
 }
 
