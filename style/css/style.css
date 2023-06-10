@@ -18,15 +18,13 @@
 }
 #landing #title {
   position: absolute;
-  width: 469px;
-  height: 58px;
-  left: 36.641%;
+  transform: translate(-50%, -50%);
+  left: 50%;
   top: 144px;
   color: #000000;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 3.33vw;
-  line-height: 58px;
 }
 #landing .description {
   position: absolute;
@@ -57,7 +55,7 @@
 #work {
   position: absolute;
   left: 50%;
-  top: 731px;
+  top: 90%;
   transform: translate(-50%, -50%);
   font-family: "Inter";
   font-size: 3.33vw;
@@ -75,7 +73,7 @@
   grid-gap: 80px;
   position: absolute;
   left: 56px;
-  top: 800px;
+  top: 100%;
 }
 .grille .grid-item {
   width: 336px;
