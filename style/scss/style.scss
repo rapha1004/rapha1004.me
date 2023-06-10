@@ -75,3 +75,26 @@ color: #000000;
 
 }
 
+.grille{
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 80px;
+    position: absolute;
+    left: 56px;
+    top: 800px;
+
+    .grid-item{
+        width: 336px;
+        height: 448px;
+        
+        border: 1px solid #000000;
+        box-shadow: 3px 1px 9px 1px #000000;
+        border-radius: 16px;
+    }
+}
+
