@@ -5,7 +5,7 @@
 }
 
 #landing #menubutton {
-  position: absolute;
+  position: fixed;
   width: 61px;
   height: 24px;
   left: 30px;
@@ -14,7 +14,7 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: black;
 }
 #landing #title {
   position: absolute;
@@ -52,4 +52,14 @@
   top: 85%;
   transform: translate(-50%, -50%);
   background: #D9D9D9;
+}
+
+#work {
+  position: absolute;
+  left: 50%;
+  top: 731px;
+  transform: translate(-50%, -50%);
+  font-family: "Inter";
+  font-size: 3.33vw;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
