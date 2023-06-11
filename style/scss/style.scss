@@ -111,8 +111,8 @@ color: #000000;
 }
 
 .grille{
-    max-width: 1300px;
-    width: 80%;
+    
+    width: 90%;
     height: auto;
     margin: 30px auto;
     display: grid;
@@ -159,6 +159,45 @@ color: #000000;
     height: 39px;
     background: #18A44C;
     border-radius: 7px;
+    }
+}
+
+@media screen and (max-width: 908px){
+    #landing{
+    
+    #titre-img{
+        transform: translate(-50%, -50%);
+        position: absolute;
+        left: 50%;
+        top: 260px;
+    }
+
+    .description{
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 319px;
+        height: 126px;
+        left: 55%;
+        top: 473px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3.2vw;
+        line-height: 44px;
+
+        color: #000000;
+
+    }
+    }
+    #linkmedia{
+        #discord{
+            position: absolute;
+            width: 21px;
+            height: 16px;
+            left: 50%;
+            top: 700px;
+        }
     }
 }
 
