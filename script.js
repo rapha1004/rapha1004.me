@@ -1,5 +1,5 @@
 const txtAnim = document.querySelector('.description');
-let go = 0;
+let go = 1;
 
 if(go == 1){
 new Typewriter(txtAnim, {
