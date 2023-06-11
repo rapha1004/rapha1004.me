@@ -5,6 +5,7 @@
 }
 
 #landing #menubutton {
+  z-index: 1;
   position: fixed;
   width: 61px;
   height: 24px;
@@ -163,5 +164,47 @@
     height: 16px;
     left: 50%;
     top: 700px;
+  }
+  .grille {
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 80px;
+    position: absolute;
+    left: 56px;
+    top: 95%;
+  }
+  .grille .grid-item {
+    width: 336px;
+    height: 448px;
+    box-shadow: 3px 4px 9px 1px #000000;
+    border-radius: 16px;
+  }
+  .grille .gridimg {
+    width: 336px;
+    height: 355.49px;
+  }
+  .grille .titregrid {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+  .grille .btngrid {
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    width: 154px;
+    height: 39px;
+    background: #18A44C;
+    border-radius: 7px;
   }
 }/*# sourceMappingURL=style.css.map */
