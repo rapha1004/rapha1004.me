@@ -34,3 +34,16 @@ new Typewriter(txtAnim, {
 .typeString('<strong>front-end developer !</strong>')
 .start()
 }
+
+
+const btncopy = document.querySelector('#discord');
+
+const txt = "rapha#8572";
+
+btncopy.addEventListener('click', () => {
+
+    navigator.clipboard.writeText(txt);
+    setTimeout(() => {
+        alert("mon pseudo a était copier!"); 
+    }, 200);
+})

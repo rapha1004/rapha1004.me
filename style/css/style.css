@@ -41,6 +41,37 @@
   left: 60.969%;
   top: 250px;
 }
+#landing #linkmedia {
+  cursor: pointer;
+}
+#landing #linkmedia #tiktok {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 27.828%;
+  top: 453px;
+}
+#landing #linkmedia #insta {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 30.828%;
+  top: 451px;
+}
+#landing #linkmedia #youtube {
+  position: absolute;
+  width: 24px;
+  height: 34px;
+  left: 33.828%;
+  top: 450px;
+}
+#landing #linkmedia #discord {
+  position: absolute;
+  width: 21px;
+  height: 16px;
+  left: 27.828%;
+  top: 460px;
+}
 
 #line {
   position: absolute;
@@ -78,7 +109,30 @@
 .grille .grid-item {
   width: 336px;
   height: 448px;
-  border: 1px solid #000000;
-  box-shadow: 3px 1px 9px 1px #000000;
+  box-shadow: 3px 4px 9px 1px #000000;
   border-radius: 16px;
+}
+.grille .gridimg {
+  width: 336px;
+  height: 355.49px;
+}
+.grille .titregrid {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.grille .btngrid {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  border: none;
+  width: 154px;
+  height: 39px;
+  background: #18A44C;
+  border-radius: 7px;
 }/*# sourceMappingURL=style.css.map */
