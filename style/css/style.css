@@ -149,12 +149,12 @@
     position: absolute;
     width: 319px;
     height: 126px;
-    left: 55%;
+    left: 60%;
     top: 473px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
-    font-size: 3.2vw;
+    font-size: 4vw;
     line-height: 44px;
     color: #000000;
   }
@@ -206,5 +206,8 @@
     height: 39px;
     background: #18A44C;
     border-radius: 7px;
+  }
+  #menubutton {
+    visibility: hidden;
   }
 }/*# sourceMappingURL=style.css.map */
