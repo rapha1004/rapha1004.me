@@ -52,41 +52,34 @@
     top: 250px;
     }
 
-    #linkmedia{
-        cursor: pointer;
-        #tiktok{
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        left: 27.828%;
-        top: 453px;
+    #contactbtn{
+    position: absolute;
+    width: 139.61px;
+    height: 24.84px;
+    left: 27.828%;
+    top: 450px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
 
-        }
+    position: absolute;
+    width: 154px;
+    height: 39px;
+    border: none;
 
-        #insta{
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        left: 30.828%;
-        top: 451px;
-        }
+    background: #18A44C;
+    border-radius: 7px;
 
-        #youtube{
-            position: absolute;
-            width: 24px;
-            height: 34px;
-            left: 33.828%;
-            top: 450px;
-        }
-
-        #discord{
-            position: absolute;
-            width: 21px;
-            height: 16px;
-            left: 27.828%;
-            top: 460px;
-        }
+       
     }
+    #contactbtn:hover{
+        cursor: pointer;
+        background: green; 
+    }
+
 }
 
 #line{
@@ -189,16 +182,13 @@ color: #000000;
         color: #000000;
 
     }
+
+    #contactbtn{
+    left: 27.828%;
+    top: 500px;
     }
-    #linkmedia{
-        #discord{
-            position: absolute;
-            width: 21px;
-            height: 16px;
-            left: 50%;
-            top: 700px;
-        }
     }
+    
     .grille{
     
         width: auto;
