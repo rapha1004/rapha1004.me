@@ -192,7 +192,7 @@
     grid-template-columns: repeat(auto-fill, 300px);
     grid-gap: 80px;
     position: absolute;
-    left: 30px;
+    left: 10px;
     top: 747.65px;
   }
   .grille .grid-item {
