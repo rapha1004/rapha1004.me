@@ -47,3 +47,8 @@ btncopy.addEventListener('click', () => {
         alert("mon pseudo a était copier!"); 
     }, 200);
 })
+
+document.documentElement.style.overflow = 'hidden';
+setTimeout(() => {
+    document.documentElement.style.overflow = '';
+}, 3000);

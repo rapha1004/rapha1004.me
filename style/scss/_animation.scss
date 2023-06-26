@@ -29,3 +29,47 @@
         left: 27.828%;
     }
 }
+
+@keyframes icone {
+    from{
+        left: -10%;
+    }
+    to{
+        left: 27%;
+    }
+}
+
+@keyframes line {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 79.063%;
+    }
+}
+@keyframes work {
+    from{
+        left: 110%;
+    }
+    to{
+        left: 50%;
+    }
+}
+
+@keyframes home {
+    from{
+        top: -20px;
+    }
+    to{
+        top: 20px;
+    }
+}
+
+@keyframes grille {
+    from{
+        top: 150%;
+    }
+    to{
+        top: 880.65px;
+    }
+}

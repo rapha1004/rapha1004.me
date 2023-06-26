@@ -28,6 +28,46 @@
     left: 27.828%;
   }
 }
+@keyframes icone {
+  from {
+    left: -10%;
+  }
+  to {
+    left: 27%;
+  }
+}
+@keyframes line {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 79.063%;
+  }
+}
+@keyframes work {
+  from {
+    left: 110%;
+  }
+  to {
+    left: 50%;
+  }
+}
+@keyframes home {
+  from {
+    top: -20px;
+  }
+  to {
+    top: 20px;
+  }
+}
+@keyframes grille {
+  from {
+    top: 150%;
+  }
+  to {
+    top: 880.65px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -38,6 +78,7 @@
 }
 
 #landing #menubutton {
+  animation: home 1s;
   z-index: 1;
   position: fixed;
   width: 61px;
@@ -103,6 +144,7 @@
 }
 
 #line {
+  animation: line 2s;
   position: absolute;
   width: 79.063%;
   height: 3px;
@@ -113,6 +155,7 @@
 }
 
 #work {
+  animation: work 2s;
   position: absolute;
   left: 50%;
   top: 790.3px;
@@ -123,6 +166,7 @@
 }
 
 .grille {
+  animation: grille 4s;
   width: 90%;
   height: auto;
   margin: 30px auto;
@@ -174,6 +218,7 @@
 }
 
 .link-grid {
+  animation: icone 2s;
   position: absolute;
   left: 27%;
   top: 450px;
@@ -278,6 +323,7 @@
     visibility: hidden;
   }
   .link-grid {
+    animation: none;
     position: absolute;
     left: 27%;
     top: 450px;
@@ -290,6 +336,7 @@
     grid-gap: 10px;
   }
   #line {
+    animation: none;
     position: absolute;
     width: 79.063%;
     height: 3px;
