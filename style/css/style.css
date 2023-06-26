@@ -33,6 +33,10 @@
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 #landing #menubutton {
   z-index: 1;
   position: fixed;
@@ -47,7 +51,7 @@
   color: black;
 }
 #landing #title {
-  animation: aparitionTitre 3s;
+  animation: aparitionTitre;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
