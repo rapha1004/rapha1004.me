@@ -1,4 +1,9 @@
 const txtAnim = document.querySelector('.description');
+let prout = new Audio("prout.mp3");
+let taGeul = new Audio("tageul.mp3")
+let title = document.getElementById('title');
+let home = document.getElementById('menubutton');
+
 let go = 1;
 
 if(go == 1){
@@ -52,3 +57,14 @@ document.documentElement.style.overflow = 'hidden';
 setTimeout(() => {
     document.documentElement.style.overflow = '';
 }, 3000);
+
+
+title.addEventListener('mouseover', pTaGeul)
+home.addEventListener('mouseover', pProut)
+function pProut(){
+    prout.play();
+}
+
+function pTaGeul() {
+    taGeul.play();
+}

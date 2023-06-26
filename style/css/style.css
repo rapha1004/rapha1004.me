@@ -77,6 +77,10 @@
   display: none;
 }
 
+#landing #prout-song {
+  width: 0px;
+  height: 0px;
+}
 #landing #menubutton {
   animation: home 1s;
   z-index: 1;
