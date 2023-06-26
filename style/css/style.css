@@ -1,4 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@keyframes aparitionTitre {
+  from {
+    visibility: hidden;
+    top: -4%;
+  }
+  to {
+    visibility: visible;
+    top: 144px;
+  }
+}
+@keyframes apparitionImg {
+  from {
+    visibility: hidden;
+    left: 100%;
+  }
+  to {
+    visibility: visible;
+    left: 60.969%;
+  }
+}
+@keyframes description {
+  from {
+    left: -30.828%;
+  }
+  to {
+    visibility: visible;
+    left: 27.828%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +47,7 @@
   color: black;
 }
 #landing #title {
+  animation: aparitionTitre 3s;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -28,6 +58,7 @@
   font-size: 3.33vw;
 }
 #landing .description {
+  animation: description 3s;
   position: absolute;
   left: 27.828%;
   top: 381px;
@@ -38,6 +69,7 @@
   line-height: 44px;
 }
 #landing #titre-img {
+  animation: apparitionImg 3s;
   position: absolute;
   left: 60.969%;
   top: 250px;
@@ -158,13 +190,18 @@
 }
 
 @media screen and (max-width: 908px) {
+  #landing #title {
+    animation: none;
+  }
   #landing #titre-img {
+    animation: none;
     transform: translate(-50%, -50%);
     position: absolute;
     left: 50%;
     top: 260px;
   }
   #landing .description {
+    animation: none;
     transform: translate(-50%, -50%);
     position: absolute;
     width: 319px;
