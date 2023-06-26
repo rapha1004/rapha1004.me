@@ -51,7 +51,7 @@
   color: black;
 }
 #landing #title {
-  animation: aparitionTitre;
+  animation: aparitionTitre 3s;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
