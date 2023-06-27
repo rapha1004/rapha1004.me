@@ -172,7 +172,7 @@
   color: #000000;
 }
 
-.grille {
+.grid {
   animation: grille 4s;
   width: 90%;
   height: auto;
@@ -185,24 +185,24 @@
   left: 56px;
   top: 880.65px;
 }
-.grille .grid-item {
+.grid .grid-item {
   width: 336px;
   height: 448px;
   box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.25);
   border-style: solid;
 }
-.grille .gridimg {
+.grid .gridimg {
   width: 336px;
   height: 312px;
 }
-.grille .titregrid {
+.grid .titregrid {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
   color: #000000;
 }
-.grille .btngrid {
+.grid .btngrid {
   cursor: pointer;
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -215,7 +215,7 @@
   background: #18A44C;
   border-radius: 7px;
 }
-.grille .descriptiontitre {
+.grid .descriptiontitre {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
