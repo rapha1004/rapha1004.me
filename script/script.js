@@ -1,5 +1,6 @@
 const txtAnim = document.querySelector('.description');
-
+var largeur = window.innerWidth;
+var hauteur = window.innerHeight;
 
 let go = 1;
 
@@ -50,10 +51,12 @@ btncopy.addEventListener('click', () => {
     }, 200);
 })
 
-document.documentElement.style.overflow = 'hidden';
-setTimeout(() => {
-    document.documentElement.style.overflow = '';
-}, 3000);
+if (largeur >= 908) {
+    document.documentElement.style.overflow = 'hidden';
+    setTimeout(() => {
+        document.documentElement.style.overflow = '';
+    }, 3000);
+}
 
 
 
