@@ -1,6 +1,5 @@
 const txtAnim = document.querySelector('.description');
 var largeur = window.innerWidth;
-var hauteur = window.innerHeight;
 
 let go = 1;
 
