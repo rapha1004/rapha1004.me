@@ -1,6 +1,7 @@
 const txtAnim = document.querySelector('.description');
 var largeur = window.innerWidth;
 
+
 let go = 1;
 
 if(go == 1){
@@ -56,7 +57,4 @@ if (largeur >= 908) {
         document.documentElement.style.overflow = '';
     }, 3000);
 }
-
-
-
 
