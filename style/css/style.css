@@ -68,6 +68,14 @@
     top: 880.65px;
   }
 }
+@keyframes contactbtn {
+  from {
+    left: -154px;
+  }
+  to {
+    left: 27.828%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -127,11 +135,12 @@
   top: 250px;
 }
 #landing #contactbtn {
+  animation: contactbtn 2.5s;
   position: absolute;
   width: 139.61px;
   height: 24.84px;
   left: 27.828%;
-  top: 450px;
+  top: 550px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -272,7 +281,7 @@
   }
   #landing #contactbtn {
     left: 50%;
-    top: 500px;
+    top: 550px;
     transform: translate(-50%, -50%);
   }
   .grid {
