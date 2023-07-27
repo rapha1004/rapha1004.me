@@ -41,7 +41,7 @@ new Typewriter(txtAnim, {
 
 const btncopy = document.querySelector('#discord');
 
-const txt = "rapha#8572";
+const txt = "rapha1004";
 
 btncopy.addEventListener('click', () => {
 

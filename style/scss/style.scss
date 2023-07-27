@@ -66,6 +66,7 @@
 
 
     #titre-img{
+    z-index: -2;
     animation: apparitionImg 3s;
     position: absolute;
     left: 60.969%;
@@ -73,6 +74,7 @@
     }
 
     #contactbtn{
+    cursor: pointer;
     animation: contactbtn 2.5s;
     position: absolute;
     width: 139.61px;
@@ -97,7 +99,7 @@
        
     }
     #contactbtn:hover{
-        cursor: pointer;
+       
         background: green; 
     }
 
@@ -150,8 +152,7 @@ color: #000000;
     .gridimg{
         width: 336px;
         height: 312px;
-
-
+        z-index: -2;
     }
     .titregrid{
     
@@ -206,7 +207,7 @@ color: #000000;
         }
 
         #discord{
-            cursor: pointer;
+            
         }
     }
 
@@ -287,7 +288,7 @@ color: #000000;
             }
         
             .btngrid{
-                cursor: pointer;
+                
                 font-family: 'Inter', sans-serif;
                 font-weight: 600;
                 font-size: 20px;
@@ -354,5 +355,19 @@ color: #000000;
         
         }
     }
-    
+    .cursor{
+        width: 40px;
+        height: 40px;
+        
+        border: 1px dashed white;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .cursor::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
     

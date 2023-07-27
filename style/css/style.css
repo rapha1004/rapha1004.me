@@ -129,12 +129,14 @@
   line-height: 44px;
 }
 #landing #titre-img {
+  z-index: -2;
   animation: apparitionImg 3s;
   position: absolute;
   left: 60.969%;
   top: 250px;
 }
 #landing #contactbtn {
+  cursor: pointer;
   animation: contactbtn 2.5s;
   position: absolute;
   width: 139.61px;
@@ -155,7 +157,6 @@
   border-radius: 7px;
 }
 #landing #contactbtn:hover {
-  cursor: pointer;
   background: green;
 }
 
@@ -203,6 +204,7 @@
 .grid .gridimg {
   width: 336px;
   height: 312px;
+  z-index: -2;
 }
 .grid .titregrid {
   font-family: "Inter", sans-serif;
@@ -249,10 +251,6 @@
   width: 25px;
   height: 25px;
 }
-.link-grid #discord {
-  cursor: pointer;
-}
-
 @media screen and (max-width: 908px) {
   #landing #title {
     animation: none;
@@ -316,7 +314,6 @@
     color: #000000;
   }
   .grid .btngrid {
-    cursor: pointer;
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -372,4 +369,18 @@
     font-size: 3.33vw;
     color: #000000;
   }
+}
+.cursor {
+  width: 40px;
+  height: 40px;
+  border: 1px dashed white;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.cursor::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }/*# sourceMappingURL=style.css.map */

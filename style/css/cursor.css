@@ -1,0 +1,52 @@
+* {
+  cursor: none;
+}
+
+.cursor {
+  width: 40px;
+  height: 40px;
+  border: 1px dashed black;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  animation: anim1 1s infinite alternate;
+}
+
+.cursor::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 5px;
+  height: 5px;
+  background: crimson;
+  border-radius: 50%;
+}
+
+.expand {
+  animation: anim2 0.5s;
+  background: crimson;
+  border: 1px solid crimson;
+}
+
+@keyframes anim2 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@keyframes anim1 {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+  to {
+    transform: scale(0.7) rotate(180deg);
+  }
+}/*# sourceMappingURL=cursor.css.map */
