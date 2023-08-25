@@ -251,8 +251,9 @@
   width: 25px;
   height: 25px;
 }
-.link-grid #discord {
+.link-grid #discordL {
   cursor: pointer;
+  width: 35px;
 }
 
 @media screen and (max-width: 908px) {
