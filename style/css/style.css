@@ -251,6 +251,10 @@
   width: 25px;
   height: 25px;
 }
+.link-grid #discord {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 908px) {
   #landing #title {
     animation: none;
