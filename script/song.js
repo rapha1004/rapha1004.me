@@ -1,9 +1,9 @@
-let taGeul = new Audio("song/tageul.mp3")
+let EES = new Audio("song/EES.mp3")
 let title = document.getElementById('title');
 let home = document.getElementById('menubutton');
 
-title.addEventListener('mouseover', pTaGeul)
+title.addEventListener('mouseover', pEES)
 
-function pTaGeul() {
-    taGeul.play();
+function pEES() {
+    EES.play();
 }
