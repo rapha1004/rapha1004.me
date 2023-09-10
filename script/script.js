@@ -65,7 +65,7 @@ ipDB.on("value", function(snapshot){
 snapshot.forEach(function(element){
     let allIp = element.val().ip
     allIpT.push(allIp)
-
+    
 })
 })
     console.log(allIpT)
@@ -118,7 +118,6 @@ async function getip() {
                 }
             }
             
-            // Appeler saveIp(ip, ville) ici après la vérification de l'existence de l'IP
             
 
     saveIp(ip, ville)
