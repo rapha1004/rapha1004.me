@@ -113,6 +113,8 @@ async function getip() {
                     }).catch((error) => {
                         console.error("Erreur lors de la sauvegarde :", error);
                     });
+                }else if(exists == true){
+                    console.log("deja dans la base de donné")
                 }
             }
             
