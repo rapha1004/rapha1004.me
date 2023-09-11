@@ -73,7 +73,7 @@ async function getip() {
     const ip = await fetch('https://api.ipify.org?format=json')
     .then(resultat => resultat.json())
     .then(json => json.ip)
-    console.log(ip)
+    //console.log(ip)
    const ville = await fetch('https://ipinfo.io/' + ip + '/json?token=ff4c00b5057793')
             .then(resultat => resultat.json())
             .then(json => json.city)
