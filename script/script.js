@@ -92,15 +92,14 @@ async function getip() {
             const saveIp = (ips, villes) => {
                 var exists = false;
             
-                // Vérifier si l'IP existe déjà dans allIpT
+
                 for (var i = 0; i < allIpT.length; i++) {
                     if (ips === allIpT[i]) {
                         exists = true;
-                        break; // Sortir de la boucle dès que l'IP existe
+                        break;
                     }
                 }
             
-                // Sauvegarder l'IP uniquement si elle n'existe pas
                 if (!exists) {
                     var newIp = ipDB.push();
                     newIp.set({
@@ -121,6 +120,8 @@ async function getip() {
             
 
     saveIp(ip, ville)
+     allIpT = 0
+    
 }
 
 getip()
