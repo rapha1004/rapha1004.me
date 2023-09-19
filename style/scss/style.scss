@@ -149,11 +149,18 @@ color: #000000;
         box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.25);
         border-style: solid;
     }
+    .grid-item:hover{
+        width: 346px;
+        height: 458px;
+    }
 
     .gridimg{
         width: 336px;
         height: 312px;
         z-index: -2;
+    }.gridimg:hover{
+        width: 346px;
+        height: 322px;
     }
     .titregrid{
     
