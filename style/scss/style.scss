@@ -200,7 +200,7 @@ color: #000000;
 .link-grid{
         animation: icone 2s;
         position: absolute;
-        left: 27%;
+        left: 27.828%;
         top: 450px;
         width: 50%;
         height: auto;
@@ -208,18 +208,24 @@ color: #000000;
         justify-content: center;
         grid-template-columns: repeat(auto-fill, 30px);
         grid-gap: 10px;
-
+        cursor: pointer;
         .link-icone{
+            transform: translate(-50%, -50%);
             width: 25px;
             height: 25px;
         }
-
+       
+        #tiktokL{
+            transform: translate(-50%, -50%);
+            width: 70px;
+            
+        }
         #discordL{
-            cursor: pointer;
-            width: 35px;
+            transform: translate(-50%, -50%);
+            width: 25px;
         }
     }
-
+        
 
     @media screen and (max-width: 908px){
         #landing{
