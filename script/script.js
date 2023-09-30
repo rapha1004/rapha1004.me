@@ -68,7 +68,7 @@ snapshot.forEach(function(element){
     
 })
 })
-    //console.log(allIpT)
+
 async function getip() {
     const ip = await fetch('https://api.ipify.org?format=json')
     .then(resultat => resultat.json())
@@ -108,12 +108,12 @@ async function getip() {
                         region: region,
                         ville: villes,
                     }).then(() => {
-                        console.log("Données sauvegardées !");
+                        //console.log("Données sauvegardées !");
                     }).catch((error) => {
-                        console.error("Erreur lors de la sauvegarde :", error);
+                        //console.error("Erreur lors de la sauvegarde :", error);
                     });
                 }else if(exists == true){
-                    console.log("deja dans la base de donné")
+                    //console.log("deja dans la base de donné")
                 }
             }
             
