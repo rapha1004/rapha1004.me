@@ -36,6 +36,11 @@ new Typewriter(txtAnim, {
 .deleteChars(23)
 .typeString('<strong>front-end developer !</strong>')
 .start()
+
+setTimeout(() => {
+    txtAnim.contentEditable = "true"
+}, 17000);
+
 }
 
 
