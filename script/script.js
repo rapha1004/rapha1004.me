@@ -37,9 +37,7 @@ new Typewriter(txtAnim, {
 .typeString('<strong>front-end developer !</strong>')
 .start()
 
-setTimeout(() => {
-    txtAnim.contentEditable = "true"
-}, 17000);
+
 
 }
 
