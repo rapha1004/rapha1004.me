@@ -1,5 +1,5 @@
 
-let description = document.querySelector(".description")
+let description = document.getElementById("title")
 description.addEventListener("input", playDescription)
 
 function playDescription(){

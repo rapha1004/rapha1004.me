@@ -1,4 +1,4 @@
-const txtAnim = document.querySelector('.description');
+const txtAnim = document.querySeldoector('.description');
 var largeur = window.innerWidth;
 
 
