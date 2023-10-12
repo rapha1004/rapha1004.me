@@ -125,6 +125,9 @@
   font-weight: 600;
   font-size: 3.33vw;
 }
+#landing #title:hover {
+  cursor: pointer;
+}
 #landing .description {
   animation: description 3s;
   position: absolute;
