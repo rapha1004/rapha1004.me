@@ -50,16 +50,12 @@ btncopy.addEventListener('click', () => {
 
     navigator.clipboard.writeText(txt);
     setTimeout(() => {
-        alert("mon pseudo a était copier!"); 
+        alert("my nickname was copied!"); 
     }, 200);
 })
 
-if (largeur >= 908) {
-    document.documentElement.style.overflow = 'hidden';
-    setTimeout(() => {
-        document.documentElement.style.overflow = '';
-    }, 3000);
-}
+
+
 // let allIpT = []
 //  firebase.initializeApp(firebaseConfig);
 // const ipDB = firebase.database().ref('rapha1004 website')
