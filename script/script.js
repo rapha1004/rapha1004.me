@@ -1,4 +1,4 @@
-const txtAnim = document.querySeldoector('.description');
+const txtAnim = document.querySelector('.description');
 var largeur = window.innerWidth;
 
 
@@ -42,7 +42,7 @@ new Typewriter(txtAnim, {
 }
 
 
-const btncopy = document.querySelector('#discord');
+const btncopy = document.getElementById('discordL');
 
 const txt = "rapha1004";
 
