@@ -7,7 +7,7 @@ function playDescription(){
     if(description.textContent === "do a barrel roll" || description.textContent === "Do a barrel roll"){
         document.body.style.animation = "barrelRoll 3s";
         setTimeout(() => {
-            window.location.reload()
+            description.textContent = "Hello, I'm Raphaël 👋"
         }, 3000);
     }else if(description.textContent === "askew" || description.textContent === "Askew"){
         
@@ -17,4 +17,3 @@ function playDescription(){
         document.body.style.transform = 'rotate(0deg)'
     }
 }
-
