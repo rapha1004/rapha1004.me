@@ -1,5 +1,6 @@
 
 let description = document.getElementById("title")
+let pp = document.getElementById("titre-img")
 description.addEventListener("input", playDescription)
 
 function playDescription(){
@@ -13,7 +14,15 @@ function playDescription(){
         
         document.body.style.transform = 'rotate(2deg)'
       
+    }else if(description.textContent === "duck" || description.textContent === "Duck"){
+        pp.src = "image/canardPp.jpeg"
     }else{
         document.body.style.transform = 'rotate(0deg)'
+    }
+}
+
+function duck(){
+    if(description.textContent === "duck"){
+        pp.src = "image/canardPp.jpeg"
     }
 }
