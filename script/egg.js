@@ -9,6 +9,7 @@ function playDescription(){
         document.body.style.animation = "barrelRoll 3s";
         setTimeout(() => {
             description.textContent = "Hello, I'm Raphaël 👋"
+            document.body.style.animation = "";
         }, 3000);
     }else if(description.textContent === "askew" || description.textContent === "Askew"){
         
@@ -18,11 +19,7 @@ function playDescription(){
         pp.src = "image/canardPp.jpeg"
     }else{
         document.body.style.transform = 'rotate(0deg)'
+        pp.src = "image/pp.png"
     }
 }
 
-function duck(){
-    if(description.textContent === "duck"){
-        pp.src = "image/canardPp.jpeg"
-    }
-}
