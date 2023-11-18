@@ -34,6 +34,11 @@ new Typewriter(txtAnim, {
 .typeString('<strong> developer !</strong>')
 .pauseFor(1000)
 .deleteChars(23)
+.typeString('<span style="color: #f0db4f">Three.js</span>')
+.pauseFor(300)
+.typeString('<strong> developer !</strong>')
+.pauseFor(1000)
+.deleteChars(23)
 .typeString('<strong>front-end developer !</strong>')
 .start()
 
