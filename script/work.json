@@ -1,5 +1,5 @@
 [
-    {"gridimg": "image/platy-pixel.png","titregrid": "Platy-chat", "descriptiontitre": "loading description..." ,"btngrid": "https://platy-pixel.vercel.app", "dispo": "false"},
+    {"gridimg": "image/platy-pixel.png","titregrid": "Platy-chat", "descriptiontitre": "loading description..." ,"btngrid": "https://platy-pixel.vercel.app", "dispo": "true"},
     {"gridimg": "image/platy-pixel.png","titregrid": "Platy-pixel", "descriptiontitre": "better than r/place" ,"btngrid": "https://platy-pixel.vercel.app", "dispo": "true"},
     {"gridimg": "image/popduck.png","titregrid": "pop duck", "descriptiontitre": "just a clicker game" ,"btngrid": "https://pop-duck.vercel.app", "dispo": "true"},
     {"gridimg": "image/weather app.png","titregrid": "weather app", "descriptiontitre": "the best weather app ever" ,"btngrid": "https://weather.rapha1004.me", "dispo": "true"},
