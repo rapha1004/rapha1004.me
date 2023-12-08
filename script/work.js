@@ -27,12 +27,21 @@ fetch('script/work.json')
 
       const btngrid = document.createElement('a');
       btngrid.className = 'btngrid';
-      btngrid.href = data.btngrid
-      btngrid.target = '_blank'
+        btngrid.target = '_blank'
+      if(data.dispo == "true"){
+        btngrid.href = data.btngrid
+      }
       
       const btn = document.createElement('button');
       btn.className = 'btngrid';
-      btn.textContent = 'Learn more ➚'
+      if(data.dispo == "true"){
+        btn.textContent = 'Learn more ➚'
+      }else if(data.dispo == "false"){
+        btn.textContent = 'unavailable'
+        btn.style.backgroundColor = "#146131"
+        btn.style.cursor = "not-allowed"
+      }
+     
 
      
       gridItem.appendChild(center)
