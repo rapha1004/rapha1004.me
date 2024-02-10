@@ -1,7 +1,6 @@
 [
     {"gridimg": "image/platy-chat.png","titregrid": "Platy-chat", "descriptiontitre": "loading description..." ,"btngrid": "https://platy-chat.vercel.app", "dispo": "true"},
     {"gridimg": "image/platy-pixel.png","titregrid": "Platy-pixel", "descriptiontitre": "better than r/place" ,"btngrid": "https://platy-pixel.vercel.app", "dispo": "true"},
-    {"gridimg": "image/popduck.png","titregrid": "pop duck", "descriptiontitre": "just a clicker game" ,"btngrid": "https://pop-duck.vercel.app", "dispo": "true"},
     {"gridimg": "image/weather app.png","titregrid": "weather app", "descriptiontitre": "the best weather app ever" ,"btngrid": "https://weather.rapha1004.me", "dispo": "true"},
     {"gridimg": "image/random-dog.jpeg","titregrid": "Random-dog", "descriptiontitre": "dog generator website" ,"btngrid": "https://random-dog.vercel.app ", "dispo": "true"},
     {"gridimg": "image/shitter logo.png","titregrid": "Shitter.ch", "descriptiontitre": "no-account anonymous social media" ,"btngrid": "https://shitter.devplodocus.repl.co", "dispo": "false"},
