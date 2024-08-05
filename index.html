@@ -7,7 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="image/pp.png">
     <link rel="stylesheet" href="style/css/style.css">
-
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "c6567ce8-c777-43ab-bcc7-3e3b69d73fd8",
+    });
+  });
+</script>
     <title>Raphael • dev front-end</title>
 </head>
 <body>
