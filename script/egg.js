@@ -12,8 +12,8 @@ function playDescription(){
             document.body.style.animation = "";
             //It's funny because the page turns on itself
         }, 3000);
-    }else if(description.textContent === "askew" || description.textContent === "Askew"){
-        //It's funny, I don't know why but its funny
+    }else if(description.textContent === "askew" || description.textContent === "Askew"){//It's funny, I don't know why but its funny
+        
         document.body.style.transform = 'rotate(2deg)'
       
     }else if(description.textContent === "duck" || description.textContent === "Duck"){ //The duck is the best animal, and canard101 is the best developer (after me)
