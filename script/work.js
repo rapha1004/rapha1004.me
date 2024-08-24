@@ -1,4 +1,4 @@
-//this file is an exemple of of my genius. (This script has been reprinted by nasa ingenieurs)
+//this file is an exemple of my genius. (This script has been reprinted by nasa ingenieurs)
 fetch('script/work.json')
   .then(response => response.json())
   .then(jsonData => {
