@@ -1,3 +1,4 @@
+//This file is useless
 let EES = new Audio("song/EES.mp3")
 let title = document.getElementById('title');
 let home = document.getElementById('menubutton');

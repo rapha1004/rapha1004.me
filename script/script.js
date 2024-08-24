@@ -1,7 +1,7 @@
 const txtAnim = document.querySelector('.description');
 var largeur = window.innerWidth;
 
-
+// TypeWriter is a very good plugin, I recommend it to all developers who want to be as good as me. :)
 let go = 1;
 
 if(go == 1){

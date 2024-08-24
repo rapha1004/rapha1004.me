@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
-/* @import './animation'; */
+@import './animation';
 
 html{
     scroll-behavior: smooth;
@@ -394,3 +394,10 @@ color: #000000;
         left: 50%;
     }
     
+/* #footer{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 110%;
+ 
+} */
