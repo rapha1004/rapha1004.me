@@ -1,0 +1,17 @@
+name: Push Message
+
+on:
+  push:
+    branches:
+      - main  # Remplacez 'main' par le nom de votre branche si nécessaire
+
+jobs:
+  print-message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Print push message
+        run: echo 'pppuuushh'
