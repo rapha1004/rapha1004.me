@@ -1,0 +1,18 @@
+{
+  "292dade6046672f1af58434d638d1f32_0": {
+    "author": "rapha1004",
+    "false_positive": true,
+    "ignored_at": "2024-10-16T08:32:05Z"
+  },
+  "419b3f1f03eaf2c2589c021b7f9176d1_0": {
+    "author": "rapha1004",
+    "comment": "console.log in back-end",
+    "false_positive": true,
+    "ignored_at": "2024-10-16T08:36:11Z"
+  },
+  "8a2f7ece3a18c19580d5383ea4da2614_0": {
+    "author": "rapha1004",
+    "false_positive": false,
+    "ignored_at": "2024-10-16T08:35:44Z"
+  }
+}
