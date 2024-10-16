@@ -4,7 +4,7 @@ name: Bearer Static Code Analyses
 on:
   push:
     branches:
-      - master
+      - new
 
 permissions:
   contents: read
