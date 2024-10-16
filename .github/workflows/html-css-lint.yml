@@ -1,12 +1,12 @@
-name: Analyze EJS/CSS
+name: Analyze HTML/CSS
 
 on:
   push:
     branches:
-      - main
+      - new
   pull_request:
     branches:
-      - main
+      - new
 
 jobs:
   lint:
@@ -17,23 +17,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Étape 2 : Installer Node.js
+      # Étape 2 : Installer Node.js (nécessaire pour installer les outils)
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'
 
-      # Étape 3 : Installer les dépendances nécessaires (HTMLHint + plugin EJS + Stylelint)
+      # Étape 3 : Installer les dépendances
       - name: Install dependencies
         run: |
-          npm install -g stylelint stylelint-config-standard htmlhint htmlhint-ejs
+          npm install -g stylelint stylelint-config-standard htmlhint
 
       # Étape 4 : Analyser le CSS avec Stylelint
       - name: Run Stylelint (CSS)
         run: |
           stylelint "**/*.css"
 
-      # Étape 5 : Analyser les fichiers EJS avec HTMLHint
-      - name: Run HTMLHint (EJS)
+      # Étape 5 : Analyser le HTML avec HTMLHint
+      - name: Run HTMLHint (HTML)
         run: |
-          htmlhint "**/*.ejs"
+          htmlhint "**/*.html"
