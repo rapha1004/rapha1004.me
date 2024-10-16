@@ -1,0 +1,22 @@
+name: Wait 10 Seconds
+
+on:
+  push:
+    branches:
+      - new
+
+jobs:
+  wait-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Wait for 10 seconds
+        run: |
+          echo "Waiting for 10 seconds..."
+          sleep 10  # Attendre 10 secondes
+
+      - name: Next Action
+        run: echo "Proceeding to the next action after 10 seconds."
