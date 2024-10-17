@@ -1,16 +1,37 @@
 <header>
     <nav>
-        <a href="/">Rapha1004</a>
-        <a href="/project">Project</a>
-        <a href="/about">About me</a>
-        <a href="/blog">Blog</a>
-        <a href="/contact">Contact</a>
+        <a href="/" class="home-btn link">Rapha1004</a>
+        <div class="nav-links">
+            <a class="link">Project</a>
+            <a class="link" href="/about">About me</a>
+            <a class="link" href="/blog">Blog</a>
+            <a class="link" href="/contact">Contact</a>
+        </div>
     </nav>
 </header>
 
 <style>
-    nav{
+
+    nav {
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .nav-links {
+        display: flex;
+        gap: 24px;
+    }
+    .home-btn {
+        font-weight: bold;
+    }
+
+    .link:hover{
+        text-decoration: underline;
     }
 </style>
