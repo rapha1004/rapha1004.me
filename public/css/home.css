@@ -1,0 +1,7 @@
+@import url('normalize.css');
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
