@@ -1,11 +1,11 @@
 <div class="landing">
     <div class="right">
         <h1>Hello,<br>
-            I'm Raphaël 👋 </h1>
+            I'm Raphaël <span class="emoticon">👋</span> </h1>
         <h2>Web developer and tech enjoyer </h2>
         <a href="/contact" class="contactBTN">Contact me</a>
     </div>
-    <img src="/src/pp.png" alt="">
+    <img src="/src/pp.png" alt="rapha1004's profil picture"  class="pp">
 </div>
 
 <style>
@@ -44,4 +44,31 @@
         background-color: var(--main-color-hover);
     }
 
+    @media screen and (max-width: 785px) {
+       .landing{
+        flex-direction: column;
+       }
+       .pp{
+        visibility: hidden;
+       }
+    }
+    @media screen and (max-width: 480px){
+        h1{
+            font-size: 54px;
+        }
+
+        h2{
+            font-size: 14px;
+        }
+    }
+    @media screen and (max-width: 410px){
+    h1{
+        font-size: 44px;
+    }
+
+    h2{
+        font-size: 14px;
+    }
+        
+    }
 </style>
