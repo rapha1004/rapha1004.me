@@ -7,11 +7,15 @@
             <a class="link" href="/blog">Blog</a>
             <a class="link" href="/contact">Contact</a>
         </div>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </nav>
 </header>
 
 <style>
-
     nav {
         display: flex;
         justify-content: space-between;
@@ -23,15 +27,64 @@
         font-size: 24px;
         font-weight: 500;
     }
+
     .nav-links {
         display: flex;
         gap: 24px;
     }
+
     .home-btn {
         font-weight: bold;
     }
 
-    .link:hover{
+    .link:hover {
         text-decoration: underline;
     }
+
+    /* Burger icon */
+    .burger {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .burger span {
+        width: 25px;
+        height: 3px;
+        background: #333;
+        margin: 4px;
+        transition: 0.3s;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+        .nav-links {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 80px;
+            right: 0;
+            background-color: #919191;
+            width: fit-content;
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        nav.active .nav-links {
+            display: flex;
+        }
+
+        .burger {
+            display: flex;
+        }
+    }
 </style>
+
+<script>
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('nav');
+
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('active');
+    });
+</script>
