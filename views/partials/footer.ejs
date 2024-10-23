@@ -1,12 +1,21 @@
+
 <footer>
-    <p>© 2024 rapha1004. All rights reserved.</p>
-    <div class="social-link">
-        <a href="https://github.com/rapha1004" target="_blank"><img src="/src/icons/github.png" alt="" class="social-link"></a>
+    <hr>
+    <div class="footer">
+        <p class="copyright">© 2024 rapha1004. All rights reserved.</p>
+
+        <div class="social-link">
+            |
+            <a href="https://github.com/rapha1004" target="_blank"><img src="/src/icons/github.png" alt="" class="social-link"></a>
+        </div>
     </div>
 </footer>
 
 <style>
-    footer{
+    hr{
+        width: 60%;
+    }
+    .footer{
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -17,7 +26,21 @@
     }
 
     .social-link{
+        display: flex;
+        align-items: center;
+        gap: 28px;
         width: 32px;
         height: 32px;
     }
+
+    .copyright{
+        opacity: 50%;
+    }
+
+    @media screen and (max-width: 785px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
 </style>
